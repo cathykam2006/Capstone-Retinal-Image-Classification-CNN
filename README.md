@@ -4,7 +4,7 @@
 
 ## Problem Statement and Aim
 
-DThe World Health Organization (2019) estimates there are 2.2 billion vision-impaired people worldwide, of whom at least 1 billion could have been prevented or are still untreated. As far as eye care is concerned, the world faces many challenges, including inequalities in coverage and quality of prevention, treatment, and rehabilitation services. There is a shortage of trained eye care providers and the poor integration of eye care services into major health systems. It is my goal to galvanize action to address these challenges as part of my data science capstone project — Iluminado.
+The World Health Organization (2019) estimates there are 2.2 billion vision-impaired people worldwide, of whom at least 1 billion could have been prevented or are still untreated. As far as eye care is concerned, the world faces many challenges, including inequalities in coverage and quality of prevention, treatment, and rehabilitation services. There is a shortage of trained eye care providers and the poor integration of eye care services into major health systems. It is my goal to galvanize action to address these challenges as part of my data science capstone project — Iluminado.
 
 My motivations for this project are two-folded:
 
