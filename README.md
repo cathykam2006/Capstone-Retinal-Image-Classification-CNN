@@ -8,7 +8,7 @@ DThe World Health Organization (2019) estimates there are 2.2 billion vision-imp
 
 My motivations for this project are two-folded:
 
-* I personally had undergone ICL surgery, full name stands for Implantable Collamer Lens (ICL) Surgery. After witnessing how AI and machines play a major role in the diagnostic process, I decided to pursue further in this realm and utilized what I have learned in data science to create a deep learning net to help ophthalmologist land on a better informed diagnosis with the retinal image accordingly.
+* I personally had undergone ICL surgery (a.k.a Implantable Collamer Lens Surgery). After witnessing how AI and machines play a major role in the diagnostic process, I decided to pursue further in this realm and utilized what I have learned in data science to create a deep learning net to help ophthalmologist land on a better informed diagnosis with the retinal image accordingly.
 
 * As an aspiring data scientist, my ultimate aim to create a positive impact - no matter how small it is - to the world. This capstone project fulfills my little passion project and bring that long-envisioned prototype to reality.
 
@@ -124,6 +124,7 @@ Iluminado was my ideal prototype to show the percentage of disease risk to patie
 
 Binary Classification:
 | Architectures | Epochs | Training loss | Testing loss | Training accuracy | Testing accuracy |
+|---|---|---|---|---|---|
 | InceptionV3 | 70 | 0.01 | 2.11 | 0.99 | 0.74 |
 | Xception | 70 | 0.00 | 2.22 | 0.99 | 0.73 |
 | VGG16 | 30 | 0.17 | 0.98 | 0.92 | 0.73 |
@@ -134,6 +135,7 @@ Binary Classification:
 
 Multi Classification:
 | Architectures | Epochs | Training loss | Testing loss | Training accuracy | Testing accuracy |
+|---|---|---|---|---|---|
 | InceptionV3 | 50 | 0.54 | 3.81 | 0.84 | 0.41 |
 | Xception | 50 | 1.00 | 1.02 | 0.47 | 0.50 |
 | VGG16 | 20 | 0.03 | 2.63 | 0.98 | 0.47 |
