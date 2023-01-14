@@ -151,7 +151,7 @@ This may be because of an imbalanced dataset, there are 1519 (yes_disease) image
 ## Deployment on Streamlit
 
 
-[(project-capstone (Illuminado Capstone Project)/Streamlit Deployment Example.jpg)](http://localhost:8892/lab/tree/GA/project-capstone%20(Illuminado%20Capstone%20Project)/Streamlit%20Deployment%20Example.jpg)
+http://localhost:8892/lab/tree/GA/project-capstone%20(Illuminado%20Capstone%20Project)/Streamlit%20Deployment%20Example.jpg
 
 To fulfill my wishes of turning a prototype into a reality, I decided to deploy the model uing streamlit. 
 After the user has dragged an image to the platform, it will automatically process the image through one of the models, and the model will then display the disease risk percentage to inform users about their eye conditions.
