@@ -27,13 +27,17 @@ My motivations for this project are two-folded:
 
 ## Source of the Dataset
 
+The dataset could be found in here: https://www.mdpi.com/2306-5729/6/2/14
+
+*The datasets are not provided in the github due to its large size
+
 There is a public available image dataset called the Retinal Fundus Multi-Disease Image Dataset (RFMiD), provided by OphthAI, which comprises 3200 fundus images that were captured with three different fundus cameras and annotated by two senior retinal experts based on adjudicated consensus.
 
 The images were extracted from the thousands of examinations done during the period 2009–2020. Both high-quality and low-quality images are selected to make the dataset challenging.
 
 The dataset has been divided into 3 parts, consisting of a training set (60% or 1920 images), an evaluation set (20% or 640 images), and a test set (20% or 640 images).On average, the disease-wise ratio in the training, evaluation and testing sets are 60 ± 7 %, 20 ± 7%, and 20 ± 5%, respectively. The fundamental purpose of this dataset is to tackle a broad array of eye illnesses seen in daily clinical practice. There are 45 categories of diseases/pathologies identified in total. These labels can be found in the three CSV files; namely, the RFMiD_Training_Labels.CSV, the RFMiD_Validation_Labels.CSV, and the RFMiD_Testing_Labels.CSV.
 
-Dataset could be found in here: https://www.mdpi.com/2306-5729/6/2/14
+
 
 ### Where does the image come from?
 
