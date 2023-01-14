@@ -38,7 +38,7 @@ The dataset has been divided into 3 parts, consisting of a training set (60% or 
 This image was captured using a tool known as the fundus camera — a specialized low power microscope attached to a flash-enabled camera to photograph the fundus, a retinal layer at the back of the eye.
 Most fundus cameras today are handheld, so patients need only look straight into the lens. A bright flash indicates that a photograph of the fundus has been taken.
 
-[Fundus Camera Specification](project-capstone (Illuminado Capstone Project)/Specification/Fundus Camera Specification.png)
+![Fundus Camera Specification](http://localhost:8892/lab/tree/GA/project-capstone%20(Illuminado%20Capstone%20Project)/Streamlit%20Deployment%20Example.jpg)
 
 Handheld cameras are beneficial since they can be carried to different locations and can accommodate patients who have unique needs, such as wheelchair users. In addition, any employee who has received the required training can operate the camera, allowing underserved diabetics to have their annual exams quickly, safely, and efficiently.
 
@@ -47,10 +47,11 @@ Handheld cameras are beneficial since they can be carried to different locations
 
 ## Exploratory Data Analysis
 
-[Specifications table](project-capstone (Illuminado Capstone Project)/Specification/Specifications table.png)
-[Dataset Description](project-capstone (Illuminado Capstone Project)/Specification/Dataset Description.png)
-[Pathologies Type Count](project-capstone (Illuminado Capstone Project)/Specification/Pathologies Type Count.png)
-[Multi-Disease Image Example](project-capstone (Illuminado Capstone Project)/Specification/Multi-Disease Image Example.png)
+![Specifications table](http://localhost:8805/files/GA/project-capstone%20(Illuminado%20Capstone%20Project)/Specification%20Tables/Specifications%20table.png?_xsrf=2%7C4d329aca%7C8c7d48209f868bf0914a034eaa13e7d9%7C1673664406)
+
+![Dataset Description](http://localhost:8805/lab/tree/GA/project-capstone%20(Illuminado%20Capstone%20Project)/Specification%20Tables/Dataset%20Description.png)
+
+![Pathologies Type Count](http://localhost:8805/lab/tree/GA/project-capstone%20(Illuminado%20Capstone%20Project)/Specification%20Tables/Pathologies%20Type%20Count.png)
 
 ## Data Cleaning & Sorting
 To sort the images properly, I used the CSV file as a reference to filter the (disease_risk = 1) and (disease_risk = 0) images accordingly. Then, use the import the OS system to help sort the images into the designated file 'yes_disease' and 'no_disease' accordingly. The same goes to multi-classification process.
