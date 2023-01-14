@@ -8,7 +8,7 @@ DThe World Health Organization (2019) estimates there are 2.2 billion vision-imp
 
 My motivations for this project are two-folded:
 
-* I personally had undergone ICL surgery (a.k.a Implantable Collamer Lens Surgery). After witnessing how AI and machines play a major role in the diagnostic process, I decided to pursue further in this realm and utilized what I have learned in data science to create a deep learning net to help ophthalmologist land on a better informed diagnosis with the retinal image accordingly.
+* I personally had undergone ICL surgery (a.k.a Implantable Collamer Lens Surgery). After witnessing how AI and machines play a major role in the diagnostic process, I decided to utilize what I have learned in data science to create a deep learning classifier model to help ophthalmologist land on a better informed diagnosis accordingly.
 
 * As an aspiring data scientist, my ultimate aim to create a positive impact - no matter how small it is - to the world. This capstone project fulfills my little passion project and bring that long-envisioned prototype to reality.
 
