@@ -174,7 +174,7 @@ Hopefully, one day, the model will become fully mature and can be turned into an
 
 2. [Fundus Retinal Imaging Systems](https://retinalscreenings.com/blog/fundus-photography-and-the-importance-of-quality-retinal-images/)
 
-3. [World Health Organization](https://www.who.int/news-room/fact-sheets/detail/blindness-and-visual-impairment)
+3. [World Health Organization: Blindness and vision impairment](https://www.who.int/news-room/fact-sheets/detail/blindness-and-visual-impairment)
 
 ## Medium Blog Post
 
