@@ -29,7 +29,7 @@ My motivations for this project are two-folded:
 
 The dataset could be found in here: https://www.mdpi.com/2306-5729/6/2/14
 
-*The datasets are not provided in the github due to its large size
+Caution: The datasets are not provided in Github due to its large file size
 
 There is a public available image dataset called the Retinal Fundus Multi-Disease Image Dataset (RFMiD), provided by OphthAI, which comprises 3200 fundus images that were captured with three different fundus cameras and annotated by two senior retinal experts based on adjudicated consensus.
 
