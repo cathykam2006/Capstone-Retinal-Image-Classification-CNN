@@ -15,15 +15,15 @@ My motivations for this project are two-folded:
 
 ## Table of Contents
 1. [Source of the Dataset](#Source-of-the-Dataset)
-2. [Exploratory Data Analysis](#exploratory-data-analysis)
+2. [Exploratory Data Analysis](#Exploratory-Data-Analysis)
 3. [Preprocessing](#Preprocessing)
-    * [Data Cleaning & Sorting](#data-cleaning-&-sorting)
+    * [Data Cleaning & Sorting](#Data-Cleaning-&-Sorting)
     * [Flip and Rescale All Images](#Flip-and-rescale-all-images)
-4. [CNN Architecture](#neural-network-architecture)
-5. [Model Evaluation](#results)
-6. [Deployment on Streamlit](#Streamlit-Deployment)
-7. [Future Adaptations / Improvements](#next-steps)
-8. [References](#references)
+4. [Neural Network Architecture](#neural-network-architecture)
+5. [Model Evaluation](#Model-Evaluation)
+6. [Deployment on Streamlit](#Deployment-on-Streamlit)
+7. [Future Adaptations / Improvements](#Future-Adaptations-/-Improvements)
+8. [References](#References)
 
 ## Source of the Dataset
 
