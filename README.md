@@ -174,5 +174,3 @@ Hopefully, one day, the model will become fully mature and can be turned into an
 
 3. [TensorFlow: Machine Learning For Everyone](https://youtu.be/mWl45NkFBOc)
 
-## Tech Stack
-<img align="center" src="images/tech_stack/tech_stack_banner.png" alt="tech_stack_banner"/>
