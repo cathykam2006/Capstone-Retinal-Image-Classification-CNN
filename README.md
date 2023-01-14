@@ -60,17 +60,14 @@ To sort the images properly, I used the CSV file as a reference to filter the (d
 
 The preprocessing pipeline is the following:
 
-ImageDataGenerator:
-</br>
-rescale = 1/255.
-</br>
-shear_range= 0.1
-</br>
-zoom_range= 0.2
-</br>
-horizontal_flip = True
-</br>
-vertical_flip = True
+```
+train_augmented = ImageDataGenerator(rescale = 1/255.,
+                                     shear_range= 0.1,
+                                     zoom_range= 0.2,
+                                     horizontal_flip = True,
+                                     vertical_flip = True)
+```
+
 
 ### Download All Images to my own computer
 The images were downloaded via OphthAI. Running this on Jupyter lab took me nearly 1 hour. Not to mention the CNN models - all of them consumed a lot of computing power, as well as time. All images are then allocated to in their respective folders according to disease risk and disease type, and expanded from their compressed files. In total, there are more than 40GB occupied by these images.
@@ -88,13 +85,8 @@ All images were horizontally and vertically flipped.
 
 Keras is used to build the model, while TensorFlow is used for the backend.
 
-For predicting whether the image is classified as 'yes_disease' or 'no_disease', Iluminado utilized several pre-trained convolutional base + a top layer that has a structure listed as follows:
+For predicting whether the image is classified as 'yes_disease' or 'no_disease', Iluminado utilized several pre-trained convolutional base (InceptionV3,  Xception, VGG16, MobileNetV2, EfficientNetB5 and SE-ResNeXt) + a top layer that has a structure listed as follows:
 
----
-
-pre-trained network (InceptionV3,  Xception, VGG16, MobileNetV2, EfficientNetB5 and SE-ResNeXt)
-
----
 ```
 top_layer = Sequential()
 top_layer.add(Dense(100, activation = 'relu'))
@@ -106,17 +98,15 @@ top_layer.add(Dense(1, activation = 'sigmoid'))
 ```
 
 
----
-
 First, it has a dense layer of 100 activated with 'relu', then a dropout later. Next, the image is flattened then pass thorugh another dense layer of 512, and finally to the output layer, consisting of 1 sigmoid output layer.
 
 The same goes to multi-classification of Diabetic retinopathy (DR), Media Haze (MH) and Optic disc cupping (ODC) respectively. The only difference is the output layer, where I need to change to 3 classes activated by 'softmax':
 
----
 
+```
 top_layer.add(Dense(3, activation = 'softmax'))
 
----
+```
 
 The reason why those are the target classes to predict is because they are the top 3 categories that have the most photos to support the modeling process.
 
