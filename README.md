@@ -33,6 +33,8 @@ The images were extracted from the thousands of examinations done during the per
 
 The dataset has been divided into 3 parts, consisting of a training set (60% or 1920 images), an evaluation set (20% or 640 images), and a test set (20% or 640 images).On average, the disease-wise ratio in the training, evaluation and testing sets are 60 ± 7 %, 20 ± 7%, and 20 ± 5%, respectively. The fundamental purpose of this dataset is to tackle a broad array of eye illnesses seen in daily clinical practice. There are 45 categories of diseases/pathologies identified in total. These labels can be found in the three CSV files; namely, the RFMiD_Training_Labels.CSV, the RFMiD_Validation_Labels.CSV, and the RFMiD_Testing_Labels.CSV.
 
+Dataset could be found in here: https://www.mdpi.com/2306-5729/6/2/14
+
 ### Where does the image come from?
 
 This image was captured using a tool known as the fundus camera — a specialized low power microscope attached to a flash-enabled camera to photograph the fundus, a retinal layer at the back of the eye.
