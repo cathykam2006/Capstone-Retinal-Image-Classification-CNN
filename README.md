@@ -14,18 +14,18 @@ My motivations for this project are two-folded:
 
 
 ## Table of Contents
-1. [Source of the Dataset](#data)
+1. [Source of the Dataset](#Source-of-the-Dataset)
 2. [Exploratory Data Analysis](#exploratory-data-analysis)
-3. [Preprocessing](#preprocessing)
-    * [Data Cleaning & Sorting](#data cleaning & sorting)
+3. [Preprocessing](#Preprocessing)
+    * [Data Cleaning & Sorting](#data-cleaning-&-sorting)
     * [Flip and Rescale All Images](#Flip-and-rescale-all-images)
 4. [CNN Architecture](#neural-network-architecture)
 5. [Model Evaluation](#results)
-6. [Deployment on Streamlit](#Streamlit Deployment)
+6. [Deployment on Streamlit](#Streamlit-Deployment)
 7. [Future Adaptations / Improvements](#next-steps)
 8. [References](#references)
 
-## Data
+## Source of the Dataset
 
 There is a public available image dataset called the Retinal Fundus Multi-Disease Image Dataset (RFMiD), provided by OphthAI, which comprises 3200 fundus images that were captured with three different fundus cameras and annotated by two senior retinal experts based on adjudicated consensus.
 
@@ -52,7 +52,7 @@ Handheld cameras are beneficial since they can be carried to different locations
 [Pathologies Type Count](project-capstone (Illuminado Capstone Project)/Specification/Pathologies Type Count.png)
 [Multi-Disease Image Example](project-capstone (Illuminado Capstone Project)/Specification/Multi-Disease Image Example.png)
 
-## Data Cleaning and Sorting
+## Data Cleaning & Sorting
 To sort the images properly, I used the CSV file as a reference to filter the (disease_risk = 1) and (disease_risk = 0) images accordingly. Then, use the import the OS system to help sort the images into the designated file 'yes_disease' and 'no_disease' accordingly. The same goes to multi-classification process.
 
 
@@ -80,7 +80,7 @@ All images were scaled down to 150 by 150 (which is a compromise for less comput
 
 Do note that, both high-quality and low-quality images are selected to make the dataset challenging. Some images were taken in a different lighting environment, which might possibly affect the modeling result.
 
-### Flip and Mirror All Images
+### Flip and Rescale All Images
 All images were horizontally and vertically flipped.
 
 
