@@ -170,3 +170,7 @@ Hopefully, one day, the model will become fully mature and can be turned into an
 
 3. [TensorFlow: Machine Learning For Everyone](https://youtu.be/mWl45NkFBOc)
 
+## Medium Blog Post
+
+1. [Deep Ensemble Learning for Retinal Image Classification (CNN)](https://medium.com/@cathykam2006/deep-ensemble-learning-for-retinal-image-classification-cnn-8a8ce73870c0)
+
