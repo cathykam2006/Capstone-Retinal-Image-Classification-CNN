@@ -13,12 +13,6 @@ My motivations for this project are two-folded:
 * As an aspiring data scientist, my ultimate aim to create a positive impact - no matter how small it is - to the world. This capstone project fulfills my little passion project and bring that long-envisioned prototype to reality.
 
 
-<p align = "center">
-<img align="center" src="images/readme/dr_scan.gif" alt="Retinopathy GIF"/>
-</p>
-
-(Image Courtesy by Greg Chase)
-
 ## Table of Contents
 1. [Source of the Dataset](#data)
 2. [Exploratory Data Analysis](#exploratory-data-analysis)
@@ -129,23 +123,23 @@ The reason why those are the target classes to predict is because they are the t
 Iluminado was my ideal prototype to show the percentage of disease risk to patient, so that they were better informed with their eye condition, as well as facilitate the diagnostic process of the ophthalmologist. The following table highlights the performances of each pre-trained model with different epochs.
 
 Binary Classification:
-| Architectures | Epochs | Training loss | Testing loss | Training accuracy | Testing accuracy
-| InceptionV3 | 70 | 0.01 | 2.11 | 0.99 | 0.74
-| Xception | 70 | 0.00 | 2.22 | 0.99 | 0.73
-| VGG16 | 30 | 0.17 | 0.98 | 0.92 | 0.73
-| MobileNetV2 | 30 | 1.78 | 2.98 | 0.98 | 0.73
-| EfficientNetB5 | 20 | 0.5 | 0.52 | 0.79 | 0.74
-| SE-ResNeXt | 20 | 0.51 | 0.51 | 0.79 | 0.78
+| Architectures | Epochs | Training loss | Testing loss | Training accuracy | Testing accuracy |
+| InceptionV3 | 70 | 0.01 | 2.11 | 0.99 | 0.74 |
+| Xception | 70 | 0.00 | 2.22 | 0.99 | 0.73 |
+| VGG16 | 30 | 0.17 | 0.98 | 0.92 | 0.73 |
+| MobileNetV2 | 30 | 1.78 | 2.98 | 0.98 | 0.73 |
+| EfficientNetB5 | 20 | 0.5 | 0.52 | 0.79 | 0.74 |
+| SE-ResNeXt | 20 | 0.51 | 0.51 | 0.79 | 0.78 |
 
 
 Multi Classification:
-| Architectures | Epochs | Training loss | Testing loss | Training accuracy | Testing accuracy
-| InceptionV3 | 50 | 0.54 | 3.81 | 0.84 | 0.41
-| Xception | 50 | 1.00 | 1.02 | 0.47 | 0.50
-| VGG16 | 20 | 0.03 | 2.63 | 0.98 | 0.47
-| MobileNetV2 | 20 | 0.06 | 2.98 | 0.97 | 0.45
-| EfficientNetB5 | 30 | 0.12 | 4.40 | 0.95 | 0.47
-| SE-ResNeXt | 20 | 0.07 | 3.92 | 0.96 | 0.41
+| Architectures | Epochs | Training loss | Testing loss | Training accuracy | Testing accuracy |
+| InceptionV3 | 50 | 0.54 | 3.81 | 0.84 | 0.41 |
+| Xception | 50 | 1.00 | 1.02 | 0.47 | 0.50 |
+| VGG16 | 20 | 0.03 | 2.63 | 0.98 | 0.47 |
+| MobileNetV2 | 20 | 0.06 | 2.98 | 0.97 | 0.45 |
+| EfficientNetB5 | 30 | 0.12 | 4.40 | 0.95 | 0.47 |
+| SE-ResNeXt | 20 | 0.07 | 3.92 | 0.96 | 0.41 |
 
 
 Training accuracy is still high, but testing accuracy was a bit lower than expected. 
