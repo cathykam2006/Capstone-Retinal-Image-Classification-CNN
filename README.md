@@ -95,13 +95,16 @@ For predicting whether the image is classified as 'yes_disease' or 'no_disease',
 pre-trained network (InceptionV3,  Xception, VGG16, MobileNetV2, EfficientNetB5 and SE-ResNeXt)
 
 ---
-
+```
 top_layer = Sequential()
 top_layer.add(Dense(100, activation = 'relu'))
 top_layer.add(Dropout(0.2))
 top_layer.add(Flatten())
 top_layer.add(Dense(512,activation="relu"))
 top_layer.add(Dense(1, activation = 'sigmoid'))
+
+```
+
 
 ---
 
