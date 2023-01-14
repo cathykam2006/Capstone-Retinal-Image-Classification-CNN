@@ -1,4 +1,4 @@
-# Iluminado (Data Science Capstone)
+# Iluminado (Data Science Capstone Project)
 
 ## Deep Ensemble Learning for Retinal Image Classification (CNN)
 
