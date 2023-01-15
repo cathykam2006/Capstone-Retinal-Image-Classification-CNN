@@ -169,7 +169,7 @@ Hopefully, one day, the model will become fully mature and can be turned into an
 
 3. Online machine learning should be incorporated, where data is acquired sequentially and is utilized to update the best predictor for future data at each step. To put it back to my capstone context, the model should improves itself automatically whenever new data arrives in real-time. The learning algorithm’s parameters are updated after learning from each individual training instance. 
 
-4. In addition to the diagnostic nature of the app, not only do the patient can choose to keep the diagnostic result, but they can also choose to allow the diagnosis to be automatically sent to the patient’s preferred ophthalmologist as a medical reference and stored in a stable storage system (based on the patient's will). So that the patient can be follow-up appropriately with sutiable measures according to different period development phrases.
+4. In addition to the diagnostic nature of the app, not only do the patient can choose to keep the diagnostic result, but they can also choose to allow the diagnosis to be automatically sent to the patient’s preferred ophthalmologist as a medical reference and stored in a stable storage system (based on the patient's will). So that the patient can be follow-up appropriately with sutiable measures according to different development phrases.
 
 ## References
 
