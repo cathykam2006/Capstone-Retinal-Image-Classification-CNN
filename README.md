@@ -157,7 +157,7 @@ This may be because of an imbalanced dataset, there are 1519 (yes_disease) image
 ![Deployment Example](http://localhost:8892/lab/tree/GA/project-capstone%20(Illuminado%20Capstone%20Project)/Streamlit%20Deployment%20Example.jpg)
 
 To fulfill my wishes of turning a prototype into a reality, I decided to deploy the model uing streamlit. 
-After the user has dragged an image to the platform, it will automatically process the image through one of the models, and the model will then display the disease risk percentage to inform users about their eye conditions.
+After the user has dragged an image to the platform, it will automatically process the image through the model, and it will then display the disease risk percentage to inform users about their eye conditions.
 
 Hopefully, one day, the model will become fully mature and can be turned into an online platform that is readily available for low-income families to check their eye condition without lining up at clinic and wait for weeks.
 
