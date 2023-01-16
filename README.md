@@ -80,7 +80,7 @@ train_augmented = ImageDataGenerator(rescale = 1/255.,
 
 
 ### Download All Images to my own computer
-The images were downloaded via OphthAI. Running this on Jupyter lab took me nearly 1 hour. Not to mention the CNN models - all of them consumed a lot of computing power, as well as time. All images are then allocated to in their respective folders according to disease risk and disease type, and expanded from their compressed files. In total, there are more than 40GB occupied by these images.
+The images were downloaded via OphthAI. Loading those images on Jupyter lab took me nearly 1 hour. Not to mention the CNN models - all of them consumed a lot of computing power, as well as time. All images are then allocated to in their respective folders according to disease risk and disease type, and expanded from their compressed files. In total, there are more than 40GB occupied by these images.
 
 ### Crop and Resize All Images
 All images were scaled down to 150 by 150 (which is a compromise for less computing power) Despite taking less time to train, the detail present in photos of this size is about 1424 by 2144.
