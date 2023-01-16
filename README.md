@@ -27,6 +27,7 @@ My motivations for this project are two-folded:
 6. [Deployment on Streamlit](#Deployment-on-Streamlit)
 7. [Future Adaptations / Improvements](#Future-Adaptations-/-Improvements)
 8. [References](#References)
+9. [Medium Blog Post](#Medium-Blog-Post)
 
 ## Source of the Dataset
 
